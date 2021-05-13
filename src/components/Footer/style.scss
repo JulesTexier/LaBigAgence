@@ -1,0 +1,80 @@
+.FooterDay {
+  background-color: rgb(247, 247, 247);
+}
+
+.FooterNight {
+background-color: black;
+}
+
+.FooterNight p {
+  color:white;
+}
+
+.FooterContent {
+  padding-bottom: 5em;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:4em;
+}
+
+.FooterDay img {
+  max-width: 10%;
+  padding:2em;
+  margin:2em;
+  width:100%;
+  width: 32%;
+}
+
+.FooterNight img {
+  max-width: 10%;
+  padding:2em;
+  margin:2em;
+  width:100%;
+  width: 32%;
+
+}
+
+
+
+
+.Footer h5 h1 {
+  margin:0em;
+}
+
+.cgv {
+  text-align: center;
+}
+
+.TextFooter {
+  padding:2em;
+  width: 32%;
+
+}
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  .FooterContent {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }  
+
+  .TextFooter {
+    padding:0em;
+    width: 50%;
+  }
+  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .FooterContent {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,83 @@
+.HeaderDay {
+  padding-bottom: 5em;
+  display:flex;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  padding: 3em;
+
+}
+
+.HeaderNight {
+  padding-bottom: 5em;
+  display:flex;
+  align-items: center;
+  background-color: black;
+  padding: 3em;
+
+}
+
+.HeaderDay img {
+  max-width: 40%;
+  padding:2em;
+  margin:2em;
+}
+
+.HeaderNight img {
+  max-width: 40%;
+  padding:2em;
+  margin:2em;
+}
+
+.Header h5 h1 {
+  margin:0em;
+}
+
+.TextHeader {
+  padding:2em;
+  width: 100%;
+  /*This part is important for centering*/
+}
+
+.typing-demo {
+  width: 33ch;
+  animation: typing 3s steps(30), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  .typing-demo {
+    animation: none;
+    width: 90%;
+  }
+
+  .TextFooter {
+    padding:0em;
+    width: 50%;
+  }
+  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .typing-demo {
+    animation: none;
+    width: 90%;
+  }
+
+}

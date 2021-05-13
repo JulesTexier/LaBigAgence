@@ -1,0 +1,67 @@
+.Cards{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  // background: linear-gradient(#F0F1F2 0%, #F0F1F2 7%, white 6%, white 142%)
+}
+
+.CardImg {
+  width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+.ColumnCards {
+  flex-direction: column;
+  border: 1px;
+  max-width: 550px;
+  padding-right:3em;
+  padding-left:3em;
+  margin: 4em;
+}
+
+.ColumnCards p{
+  font-family: 'Quicksand-light';
+  margin: 0em;
+}
+
+
+.Bloc {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Bloc2 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ArgumentSection{
+  margin-top:2em;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  .Bloc2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .Bloc2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+
+}

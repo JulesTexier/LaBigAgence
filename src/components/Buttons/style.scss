@@ -1,0 +1,22 @@
+button {
+  background-color: #a5d99f;
+  color: #252525;
+  padding: var(--btnShortPadding);
+  border: 1px solid #252525;
+  box-shadow: 5px 5px #252525, 4px 4px #252525, 3px 3px #252525, 2px 2px #252525, 1px 1px #252525;
+  font-size: var(--h6);
+  font-family: mabry-medium;
+  overflow: hidden;
+  display: flex;
+  cursor: pointer;
+  margin: 3em !important;
+}
+
+button p {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin:1em;
+  color:black;
+}

@@ -1,0 +1,41 @@
+.AboutNight img {
+  height:300px;
+}
+.AboutDay img {
+  height:300px;
+  
+}
+
+.AboutNight {
+  max-width: 80%;
+  background-color: #383838;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Night h3 {
+  color:white !important;
+}
+
+.AboutDay {
+  max-width: 80%;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.AllAbout{
+  display:flex;
+  justify-content: center;
+  margin:2em;
+  background-color: transparent;
+}
+
+.AllAbout img {
+  margin:3em;
+}
+
+

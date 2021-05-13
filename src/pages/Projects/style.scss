@@ -1,0 +1,44 @@
+
+
+.ProjectsDay{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProjectsNight{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color:#252525;
+}
+
+.Night h3 {
+  color:white !important;
+}
+
+h1 {
+  color:red;
+}
+
+.BeautifulCards li{
+margin:4em;
+}
+
+ul {
+  display:flex;
+  justify-content: space-between;
+}
+
+.About {
+  margin-top:2em;
+  background-color: transparent;
+}
+
+.textCard{
+  margin:2em;
+}
+
+.myCard{
+  margin:2em;
+}

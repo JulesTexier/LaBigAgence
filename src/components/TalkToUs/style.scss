@@ -1,0 +1,103 @@
+.TalkToUsDay {
+  padding-bottom: 5em;
+  display:flex;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  padding:4em;
+
+}
+
+.TalkToUsNight {
+  padding-bottom: 5em;
+  display:flex;
+  align-items: center;
+  background-color: black;
+  padding:4em;
+
+}
+
+
+.TalkToUsDay h2 {
+  margin-bottom:2em;
+
+}
+
+.TalkToUsNight h2 {
+  margin-bottom:2em !important;
+
+}
+
+.TextTalkToUs {
+  width: 60%;
+}
+
+.image img{
+  max-width: 60%;
+  min-width: 40%;
+  max-height: 60%;
+  width: fit-content;
+}
+
+.image{
+display: flex;
+justify-content: center;
+}
+
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+
+  .image{
+    display: none;
+    }
+
+    .TalkToUsNight {
+      padding-bottom: 5em;
+      display:flex;
+      align-items: center;
+      background-color: black;
+      padding:2em;
+      justify-content: center;
+    
+    }
+
+    .TalkToUsDay {
+      padding-bottom: 5em;
+      display:flex;
+      align-items: center;
+      background-color: rgb(247, 247, 247);
+      padding:2em;
+      justify-content: center;
+    
+    }
+
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+ 
+  .image{
+    display: none;
+    }
+
+    .TalkToUsNight {
+      padding-bottom: 5em;
+      display:flex;
+      align-items: center;
+      background-color: black;
+      padding:2em;
+      justify-content: center;
+    
+    }
+
+    .TalkToUsDay {
+      padding-bottom: 5em;
+      display:flex;
+      align-items: center;
+      background-color: rgb(247, 247, 247);
+      padding:2em;
+      justify-content: center;
+    
+    }
+
+}

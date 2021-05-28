@@ -5,6 +5,7 @@ Objectif : Mise en place du site Web d'une agence en dynamique avec un bouton de
 Scop Technique : React JS, React Context.
 
 ## Comment lancer l'app?
-1/ Télécharger le Repo
-2/ Lancer npm-install
-3/ Lancer npm-start
+1/ Téléchargez le Repo.
+2/ Lancez npm-install.
+3/ Lancez npm-start.
+4/ cliquez sur http://localhost:3000/

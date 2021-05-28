@@ -1,4 +1,4 @@
-![Screenshot](screenshot.png)
+![Screenshot](src/images/screenshot.png)
 
 # Mise en place du site Web d'une agence
 
